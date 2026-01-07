@@ -1,0 +1,10 @@
+streamlit
+feedparser
+pandas
+textblob
+folium
+streamlit-folium
+altair
+graphviz
+Pillow
+requests
