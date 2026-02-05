@@ -8,6 +8,8 @@ from streamlit_folium import st_folium
 from datetime import datetime, timedelta
 import random
 import time
+import os
+st.write("logo.jpg:", os.listdir())
 
 # -----------------------------------------------------------------------------
 # 1. CONFIGURATION & STYLING
@@ -541,4 +543,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
