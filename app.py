@@ -14,7 +14,7 @@ import time
 # -----------------------------------------------------------------------------
 st.set_page_config(
     page_title="AVELLON INTELLIGENCE",
-    page_icon="🛡️",
+    page_icon="logo.jpg",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -349,6 +349,7 @@ def render_login():
     st.markdown("<br><br><br>", unsafe_allow_html=True)
     c1, c2, c3 = st.columns([1, 1, 1])
     with c2:
+        st.image("logo.jpg", width=150)
         st.markdown("## AVELLON SECURE CONSOLE")
         st.markdown("Access Restricted to Authorized Personnel.")
         user = st.text_input("Identity")
@@ -540,3 +541,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
